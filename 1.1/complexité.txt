@@ -1,0 +1,1 @@
+act2 act3 et,act4 complexite O(1) (constante)

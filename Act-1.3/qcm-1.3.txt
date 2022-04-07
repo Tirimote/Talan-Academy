@@ -1,0 +1,11 @@
+
+QCM 1:d
+QCM 2:c-d
+QCM 3:c
+QCM 4:b-e
+QCM 5:d
+QCM 6:d
+QCM 7:a
+QCM 8:e
+QCM 9:d
+QCM 10:d

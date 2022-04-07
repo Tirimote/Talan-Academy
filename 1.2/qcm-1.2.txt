@@ -1,0 +1,7 @@
+
+QCM 1:c
+QCM 2:c
+QCM 3:a
+QCM 4:d)e
+QCM 5:c
+QCM 6:f

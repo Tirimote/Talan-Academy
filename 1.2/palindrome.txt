@@ -1,0 +1,27 @@
+
+fonction palindrome(ref a : chaine) :vide;
+var i,a :entier;
+  début
+  i=0;	
+  a=0;
+    répéter
+        si a[i] <> a[long(a)-1-i] alors
+        a=1;
+        sinon i=i+1;             
+        finsi
+    jusqu'à a>0 ou i > long(a)/2         
+    finrépéter 
+  si a=0 alors
+  Afficher("Votre mot est un palindrome")
+  sinon Afficher("Votre mot n'est pas un palindrome")
+  fin
+finfonction
+
+Algorithme jeuPalindrome
+Var mot:chaine;
+début
+Afficher("donner un mot");
+Saisir(mot);
+palindrome(mot);
+fin
+

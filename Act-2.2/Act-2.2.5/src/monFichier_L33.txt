@@ -1,0 +1,1 @@
+						 File file1 = new File("C:\\Users\\obensalha\\eclipse-workspace\\Act-2.2.5\\src\\monFichier_L"+i+".txt");

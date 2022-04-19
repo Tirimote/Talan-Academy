@@ -1,0 +1,1 @@
+						 FileReader fr2 = new FileReader(file1);

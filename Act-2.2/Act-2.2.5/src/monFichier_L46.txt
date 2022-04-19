@@ -1,0 +1,1 @@
+						 System.out.println("le nombre de lettres dans la ligne "+i+" est: "+line.length());

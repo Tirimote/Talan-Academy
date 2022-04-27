@@ -1,0 +1,25 @@
+CREATE TABLE favoris(
+id BIGSERIAL NOT NULL PRIMARY KEY,
+date_dajout DATE NOT NULL,
+user_id BIGINT NOT NULL REFERENCES users(id),
+announcement_id BIGINT NOT NULL REFERENCES announcement(id)
+);
+
+CREATE TABLE recherche(
+id BIGSERIAL NOT NULL PRIMARY KEY,
+type VARCHAR(50) NOT NULL,
+taille VARCHAR(6) NOT NULL,
+couleur VARCHAR(20) NOT NULL,
+prix_max int NOT NULL,
+prix_min int NOT NULL,
+user_id BIGINT NOT NULL REFERENCES users(id)
+);
+
+CREATE TABLE statut(
+id BIGSERIAL NOT NULL PRIMARY KEY,
+statut VARCHAR(20) NOT NULL
+);
+
+INSERT INTO statut VALUES (1,'en attente de validation');
+
+ALTER TABLE announcement ADD COLUMN  id_statut BIGINT REFERENCES statut(id);

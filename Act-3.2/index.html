@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS For Beginners</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Act-3.2</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form">
+        <h1>Nouvel utilisateur</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="nom">Nom*:</label>
+          <input type="text" maxlength="20" id="nom">
+        </div>
+        <div>
+          <label for="prénom">Prénom*:</label>
+          <input type="text" maxlength="15" id="prénom">
+        </div>
+        <div>
+          <label for="date de naissance">Date de naissance*:</label>
+          <input type="date" id="date de naissance">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="Email" id="email">
+        </div>
+        <div>
+          <label for="num tel">Numéro de téléphone*:</label>
+          <input type="number" max="9999999999" id="numtel">
+        </div>
+        <div>
+          <label for="lecture">Fréquence de lecture*:</label>
+          <input type="range" max="7" min="0" id="lecture">
+        </div>
+        <div>
+        <input class="btn" type="submit" value="submit" >
+          </div>
+      </form>
+
+      <ul id="users"></ul>
+
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+    </section>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

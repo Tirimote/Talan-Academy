@@ -1,0 +1,218 @@
+.container {
+    max-width: 1600px;
+}
+.p-box{
+    width: 100%; min-height: 12cm;max-width: 1600px;
+    padding-left: 25px; padding-right: 25px; background: rgb(255, 56, 92);
+    padding-top: 130px;
+    padding-bottom: 110px;
+    font-size: 50px;
+    font-display:mi;
+    text-align: center;
+    border-radius: 0.3cm;
+    position:relative;
+    margin-top: 4cm;
+    margin: auto;
+}
+.img1{
+    width: 100%; height: 20cm;max-width: 1600px;
+    padding-left: 25px; padding-right: 25px; background-image:url(images/1.webp);
+    padding-top: 15cm;
+    font-size: 50px;
+    font-display:mi;
+    text-align: center;
+    border-radius: 0.3cm;
+    position:relative;
+    margin-top: 4cm;
+    margin: auto;
+    background-size: cover;
+background-repeat: no-repeat;
+}
+.btn1 {
+    color:darkmagenta;
+    background-color:#FFFFFF;
+    border-radius: 50px !important;
+    border: none;
+    font-size: 20px;
+    padding: 0.2cm 0.8cm 0.3cm;
+}
+#recherche{
+    padding-left: 10cm;
+    margin: auto;
+}
+a.nav-link{
+    color:black;
+    
+}
+#ensavoir{
+    background-color: #FF385C;
+    color:#FFFFFF;
+    
+}
+#img1{
+    width: 80%;
+    margin: auto;
+    
+    border-radius: 00.3cm;
+    display: block;
+}
+.bg-dark{
+    height: 30cm;
+    color: black ;
+
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.text1{
+    color: black;
+    margin:auto ;
+    font-size: 40px;
+    padding: 2.5cm 2.5cm 1cm 3cm;
+}
+.text2{
+    color: black;
+    margin:auto ;
+    font-size: 40px;
+    padding: 2.5cm 2.5cm 0cm 3cm;
+}
+.block1{
+    padding-top: 7.5cm;
+    margin-bottom: 2.5cm;
+    padding-left: 1cm;
+    border-radius: 0.5cm;
+    margin-left: 2.5cm;
+    margin-right: 0.5cm;
+    float: left;
+    width: 21.5%;
+    height: 13cm;
+    background-image:url(images/2.webp);
+    background-size: contain;
+background-repeat: no-repeat;
+background-color: rgb(222, 49, 81);
+font-size: xx-large;
+}
+.block2{
+    padding-top: 7.5cm;margin-bottom: 2.5cm;
+    padding-left: 1cm;
+    border-radius: 0.5cm;
+    float: left;
+    margin-right: 0.5cm;
+    width: 21.5%;
+    height: 13cm;
+    background-image:url(images/3.webp);
+    background-size: contain;
+background-repeat: no-repeat;
+background-color: rgb(188, 26, 110);
+font-size: xx-large;
+}
+.block3{
+    padding-top: 7.5cm;margin-bottom: 2.5cm;
+    padding-left: 1cm;
+    border-radius: 0.5cm;
+    float: left;
+    margin-right: 0.5cm;
+    width: 21.5%;
+    height: 13cm;
+    background-image:url(images/4.webp);
+    background-size: contain;
+background-repeat: no-repeat;
+ background-color: rgb(217, 59, 48);
+ font-size: xx-large;
+}
+.block4{
+    padding-top: 7.5cm;margin-bottom: 2.5cm;
+    padding-left: 1cm;
+    border-radius: 0.5cm;
+    float: left;
+    margin-right: 0.5cm;
+    width: 21.5%;
+    height: 13cm;
+    background-image:url(images/5.webp);
+    background-size: contain;
+background-repeat: no-repeat;
+background-color: rgb(204, 45, 74);
+font-size: xx-large;
+}
+.block5{
+    line-height: 1.5cm;
+    margin-top: 1cm;
+    margin-left: 2.5cm;
+    padding-top: 2.5cm;
+    padding-left: 2.5cm;
+    padding-right: 7cm;
+    border-radius: 0.5cm;
+    float: left;
+    margin-right: 0.5cm;
+    width: 44%;
+    height: 25cm;
+    background-image:url(images/6.webp);
+    background-size: cover;
+background-repeat: no-repeat;
+font-size: 55px;
+}
+.block6{
+    line-height: 1.5cm;
+    padding-right: 7cm;
+    margin-top: 1cm;
+    padding-top: 2.5cm;
+    padding-left: 2.5cm;
+    border-radius: 0.5cm;
+    float: left;
+    margin-right: 0.5cm;
+    width: 44%;
+    height: 25cm;
+    background-image:url(images/7.webp);
+    background-size: cover;
+background-repeat: no-repeat;
+font-size: 57px;
+}
+.btn.btn-light{
+    border-radius: 0.2cm;
+    padding: 0.3cm 0.8cm;
+}
+.btn.btn-dark{
+    border-radius: 0.2cm;
+    padding: 0.3cm 0.8cm;
+    margin-top: 0.8cm;
+}
+.block7{
+    line-height: 1.5cm;
+    padding-top: 2.5cm;
+    padding-left: 1cm;
+    border-radius: 0.5cm;
+    margin-left: 2.5cm;
+    margin-right: 0.5cm;
+    float: left;
+    width: 20.5%;
+    height: 10cm;
+  color: black;
+  font-size: 55px;
+}
+#img8{
+    width: 28cm;
+    margin-left: 4cm;
+    margin-top: 2.5cm;
+}
+#img9{
+    
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+    margin-top: 2.5cm;
+}
+.nav.nav-tabs{
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+}
+#text10{
+    margin-left: 2.5cm;
+    font-size: 23px;
+    color: black;
+}
+
+.lastimage{
+    margin-right: 2.5cm;
+    margin-left: 2.5cm;
+}

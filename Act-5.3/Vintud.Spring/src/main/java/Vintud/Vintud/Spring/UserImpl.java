@@ -38,6 +38,8 @@ public class UserImpl implements Serializable {
 	String address;
 	@Column(name="role_id")
 	long role_id;
+	@OneToMany(mappedby="user_id")
+	List<AnnouncementImpl> announcements;
 	
 	
 	

@@ -25,6 +25,7 @@ public class AnnouncementImpl implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	long id;
 	@Column(name="user_id")
+	@ManyToOne
 	long user_id;
 	@Column(name="category_id")
 	long category_id;
